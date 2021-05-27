@@ -117,3 +117,6 @@ vscode/
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# MAC finder file
+.DS_Store
