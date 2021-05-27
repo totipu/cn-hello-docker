@@ -31,7 +31,7 @@ kind: Service
 metadata:
   name: <YOUR-SERVICE-NAME> # name of your service in K8s, e.g. isv-hello-svc
 spec:
-  type: ClusterIP
+  type: LoadBalancer # Change to ClusterIP when deploying the ingress
   ports:
   - port: 80
   selector:
